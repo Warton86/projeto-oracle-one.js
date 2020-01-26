@@ -18,12 +18,6 @@ botaoAdicionar.addEventListener("click", function(event){
 	
 //add paciente na tabela
 
-
-
-
-
-
-
 	var erros = validaPaciente(paciente);
 
 	if(erros.length > 0){
@@ -33,18 +27,7 @@ botaoAdicionar.addEventListener("click", function(event){
 		return;
 	}
 
-
-
-
-
-	adicionaPacienteNaTabela(paciente);
-
-
-
-
-
-	
-	
+	adicionaPacienteNaTabela(paciente);	
 	
 //appendChild coloca um elemento dentro do outro
 //no caso tabela dentro de pacienteTr
@@ -58,8 +41,6 @@ botaoAdicionar.addEventListener("click", function(event){
 
 console.log(pacienteTr);
 });
-
-
 
 	function adicionaPacienteNaTabela(paciente) {
 		var pacienteTr = montaTr(paciente);
@@ -83,12 +64,6 @@ console.log(pacienteTr);
 			ul.appendChild(li);
 		});
 	}
-
-
-
-
-
-
 
 
 //início pegando valores do paciente com uma função e um objeto
@@ -136,13 +111,6 @@ console.log(pacienteTr);
 	}
 //fim criando td
 
-
-
-
-
-
-
-
 	function validaPaciente(paciente) {
 	
 	var erros = [];
@@ -165,36 +133,4 @@ console.log(pacienteTr);
 		
 		
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
