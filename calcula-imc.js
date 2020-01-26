@@ -5,10 +5,6 @@ titulo.textContent = "Aparecida Nitricionista";
 var pacientes = document.querySelectorAll(".paciente");
 
 //laço de repetição para calcular o imc de todos os pacientes
-//cria uma variável i recebendo 0 na primeira instrução
-//na segunda ele da uma condição de repetição ou seja, 
-//enquanto i < que o tamanho do array, na terceira incrementa
-//de um em um em i.
 for(var i = 0; i < pacientes.length; i++) {
 	console.log(pacientes);
 
@@ -27,7 +23,7 @@ var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
 
 //seleciona a classe info.imc que está em paciente 
-// e armazena na varr tdImc
+// e armazena na var tdImc
 var tdImc = paciente.querySelector(".info-imc");
 
 //variáveis globais para validar o peso e a altura com if's
